@@ -1,0 +1,14 @@
+def main():
+    string = input("Enter words seperated by a comma")
+    print("Print the length of the string", len(string))
+    print("Print the first letter of the string", string[0])
+    print("Print the last letter of the string", string[-1])
+    print("Delete the third character in the string and then print it", string[0:1:] + string[3::])
+    print("Print the string in all uppercase", string.upper())
+    print("Print the string in Title case", string.title())
+    string = input()
+    print(string.isalpha())
+    print("Print the string after it has been split into individual words split at the commas", string.split(","))
+    text = "Coding with Python is great"
+    x = text.count("Python")
+    print(x)
